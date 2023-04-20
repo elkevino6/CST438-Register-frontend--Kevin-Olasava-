@@ -59,7 +59,7 @@ function AddStudent() {
           <label htmlFor="email">Email:</label>
           <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </div>
-        <button type="submit">Submit</button>
+        <button id="Add" type="submit">Submit</button>
       </form>
       <div>
         <p>Name: {student.name}</p>
